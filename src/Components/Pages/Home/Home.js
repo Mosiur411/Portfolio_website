@@ -29,7 +29,7 @@ const Home = () => {
                         </Animate>
                     </div>
                 </div>
-                <div data-aos="fade-up" className='flex-1 p-12'>
+                <div data-aos="fade-up" className='flex-1 p-2 md:p-12'>
                     <div className='waviy text-yellow-500 uppercase text-5xl font-bold'>
                         <span className="--i:1">_</span>
                         <span className="--i:1">M</span>
@@ -57,7 +57,7 @@ const Home = () => {
                             />
                         </span>
                     </div>
-                    <div>
+                    <div className='mb-20 md:mb-0'>
                         <h1 className='text-xl '>I'm a Mosiur islam based web designer & front‑end developer <br /> focused on crafting clean & user‑friendly experiences,<br /> I am passionate about building excellent software <br /> that improves the lives of those around me.</h1>
                         <a href={cv} download className='w-[220px] mt-10 hover:bg-yellow-500 flex justify-between items-center border-2 border-yellow-500 rounded-full' alt=''>
                             <span className='pl-3 text-xl'>Download </span>
@@ -67,9 +67,11 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <svg className='absolute bottom-0' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#0d1721" fill-opacity="1" d="M0,64L60,85.3C120,107,240,149,360,192C480,235,600,277,720,250.7C840,224,960,128,1080,85.3C1200,43,1320,53,1380,58.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
-            </svg>
+            <div>
+                <svg className='absolute bottom-0' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#0d1721" fill-opacity="1" d="M0,64L60,85.3C120,107,240,149,360,192C480,235,600,277,720,250.7C840,224,960,128,1080,85.3C1200,43,1320,53,1380,58.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+                </svg>
+            </div>
         </div>
     );
 };

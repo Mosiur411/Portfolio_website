@@ -3,15 +3,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaFacebookF, FaLinkedinIn, FaTelegram, FaTwitter, FaGithub } from "react-icons/fa";
 import React from 'react';
 import { FaLocationArrow } from "react-icons/fa";
-
 const Contact = () => {
     return (
-        <div data-aos="fade-down" className='bg-[#051b34] h-[100vh] text-white '>
-            <h1 className='text-5xl uppercase font-bold text-center py-20'>Your <span className='text-yellow-500'>Contact</span></h1>
-            <div className='px-20 flex'>
-                <div className='w-4/12'>
-                    <h1 className='text-2xl font-bold'>FOLLOW ME</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius numquam cumque iusto iure minima? Totam non, est dignissimos impedit delectus fugiat consequatur, odio nihil assumenda sunt animi suscipit labore beatae.</p>
+        <div data-aos="fade-down" className='bg-[#051b34] h-[100%] lg:h-[100vh] text-white '>
+            <h1 className='text-5xl uppercase font-bold text-center py-10 px-2'>Your <span className='text-yellow-500'>Contact</span></h1>
+            <div className='px-3 md:px-20 md:flex'>
+                <div className='md:w-4/12'>
+                    <h1 className='text-2xl font-bold py-2'>FOLLOW ME</h1>
+                    <p>My names is a  Mosiur islam.I am a font end developer.My city Rangpur.I  Like to code .This is a my drem softer enginer 10 puls project </p>
                     <div>
                         <div className='flex  items-center gap-6 mt-6'>
                             <span><FontAwesomeIcon className='w-4 h-4 bg-yellow-500 p-2 rounded-full' icon={faMapLocation}></FontAwesomeIcon></span>
@@ -53,12 +52,12 @@ const Contact = () => {
                         </a>
                     </div>
                 </div>
-                <div className='w-8/12 px-10'>
+                <div className='md:w-8/12 px-2 md:px-10 mt-10 md:mt-0'>
                     <div>
                         <form action="">
-                            <div className='w-full flex justify-between items-center gap-8 mb-10'>
+                            <div className='w-full md:flex justify-between items-center gap-8 mb-10'>
                                 <input className='bg-[#333538] w-full px-4 py-2 rounded-3xl hover:border-2  outline-none  border-yellow-500' type="text" placeholder='YOUR NAME' required />
-                                <input className='bg-[#333538] w-full px-4 py-2 rounded-3xl hover:border-2  outline-none  border-yellow-500' type="text" placeholder='YOUR EMAIL' required />
+                                <input className='bg-[#333538] mt-10 md:mt-0 w-full px-4 py-2 rounded-3xl hover:border-2  outline-none  border-yellow-500' type="text" placeholder='YOUR EMAIL' required />
                             </div>
                             <input className='bg-[#333538] w-full px-4 py-2 rounded-3xl hover:border-2  outline-none  border-yellow-500 mb-10' type="text" placeholder='YOUR SUBJECT' required />
                             <textarea className='bg-[#333538] w-full px-4 py-2 rounded-3xl hover:border-2  outline-none  border-yellow-500 mb-10' name="" id="" cols="30" rows="6" placeholder='YOUR MASSAGE' required></textarea>
@@ -69,6 +68,9 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
+            </div>
+            <div className='w-full h-20 bg-[#051b34]'>
+
             </div>
 
         </div >

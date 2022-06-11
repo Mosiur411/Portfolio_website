@@ -11,12 +11,12 @@ const About = () => {
     const node = 25;
     const mongodb = 35;
     return (
-        <div data-aos="fade-down" className='bg-[#051b34] h-[100%] text-white px-20'>
+        <div data-aos="fade-down" className='bg-[#051b34] h-[100%] text-white px-4 md:px-20'>
             <h1 className='text-5xl uppercase font-bold text-center py-10'><span className='text-yellow-500'>about</span> me</h1>
-            <div className='flex gap-10'>
-                <div className='w-7/12'>
+            <div className='md:flex gap-10'>
+                <div className='md:w-7/12 '>
                     <h1 className='text-2xl font-bold '>PERSONAL INFOS</h1>
-                    <div className='flex justify-between items-center text-lg font-medium text-slate-200 mt-10'>
+                    <div className='md:flex justify-between items-center text-lg font-medium text-slate-200 mt-10'>
                         <div>
                             <ul className='flex flex-col gap-5'>
                                 <li>
@@ -38,7 +38,7 @@ const About = () => {
                             </ul>
                         </div>
                         <div>
-                            <ul className='flex flex-col gap-5'>
+                            <ul className='flex flex-col gap-5 mt-4 md:mt-0'>
                                 <li>
                                     <span>Last Names : </span>
                                     <span className='text-slate-400 font-bold'>Islam</span>
@@ -59,9 +59,9 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-5/12'>
+                <div className='md:w-5/12 mt-10 md:mt-0'>
                     <div className='flex flex-col gap-5'>
-                        <div className='p-10 bg-slate-800 w-[52%] mx-auto rounded-3xl'>
+                        <div className='p-10 bg-slate-800 md:w-[52%] mx-auto rounded-3xl'>
                             <div className='flex justify-center items-center gap-3'>
                                 <div>
                                     <h1 className='text-5xl font-bold text-yellow-500 mb-3'>15+</h1>
@@ -71,16 +71,14 @@ const About = () => {
                                     PROJECTS</p>
                             </div>
                         </div>
-                        <div>
-                            <div className='p-10 bg-slate-800 w-[52%] mx-auto rounded-3xl'>
-                                <div className='flex justify-center items-center gap-3'>
-                                    <div>
-                                        <h1 className='text-5xl font-bold text-yellow-500 mb-3'>1+</h1>
-                                        <div class="w-16 h-1 bg-white float-left"></div>
-                                    </div>
-                                    <p className='text-xl font-medium '>YEARS  <br />
-                                        EXPERIENCE</p>
+                        <div className='p-10 bg-slate-800 md:w-[52%] mx-auto rounded-3xl'>
+                            <div className='flex justify-center items-center gap-3'>
+                                <div>
+                                    <h1 className='text-5xl font-bold text-yellow-500 mb-3'>01+ </h1>
+                                    <div class="w-16 h-1 bg-white float-left"></div>
                                 </div>
+                                <p className='text-xl font-medium '>YEARS <br />
+                                EXPERIENCE</p>
                             </div>
                         </div>
                     </div>
@@ -177,12 +175,12 @@ const About = () => {
             </div>
             <div className='pb-20'>
                 <h1 className='text-3xl uppercase font-bold text-center py-16'>EXPERIENCE <span className='text-yellow-500'>& EDUCATION</span></h1>
-                <div className='flex justify-center items-center'>
+                <div className='md:flex justify-center items-center gap-5 px-8'>
                     <div className='flex-1'>
                         <div className='flex'>
                             <div >
                                 <FaAppleAlt className='w-10 h-10 ml-[-17px] mb-2 bg-yellow-500 p-2 rounded-full' />
-                                <div class="w-1 h-32 bg-white float-left"></div>
+                                <div class="w-1 h-full md:h-32 bg-white float-left"></div>
                             </div>
                             <div className='mt-10'>
                                 <div className='text-sm w-20 bg-slate-500 p-2 rounded-3xl '>
@@ -194,11 +192,11 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='flex-1'>
+                    <div className='flex-1 mt-10 md:mt-0'>
                         <div className='flex'>
                             <div >
                                 <FaAppleAlt className='w-10 h-10 ml-[-17px] mb-2 bg-yellow-500 p-2 rounded-full' />
-                                <div class="w-1 h-32 bg-white float-left"></div>
+                                <div class="w-1 h-full md:h-32 bg-white float-left"></div>
                             </div>
                             <div className='mt-10'>
                                 <div className='text-sm w-20 bg-slate-500 p-2 rounded-3xl '>
