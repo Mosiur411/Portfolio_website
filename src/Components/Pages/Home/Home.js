@@ -5,7 +5,7 @@ import './Home.css';
 import manImages from '../../Images/Mosiruislam.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
-import cv from '../../Images/Mosiur islam Rejume .pdf'
+import cv from '../../Images/Full_Stack_Developer_Mosiur.pdf'
 const Home = () => {
     return (
         <div data-aos="fade-down" className='bgColor w-[100%] md:h-[100vh] relative text-white'>
