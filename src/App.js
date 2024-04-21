@@ -3,7 +3,6 @@ import './App.css';
 import About from './Components/Pages/About/About';
 import Home from './Components/Pages/Home/Home';
 import Contact from './Components/Pages/Contact/Contact';
-import Blog from './Components/Pages/Blog/Blog';
 import Navbar from './Components/Sheare/Navbar';
 import Portfolio from './Components/Pages/Portfolio/Portfolio ';
 import AOS from 'aos';
@@ -18,11 +17,10 @@ function App() {
     <div>
       <Navbar></Navbar>
       <Routes>
-        <Route path='/' element={<Home></Home>}></Route>
-        <Route path='about' element={<About></About>}></Route>
-        <Route path='portfolio' element={<Portfolio></Portfolio>}></Route>
-        <Route path='contact' element={<Contact></Contact>}></Route>
-        <Route path='blog' element={<Blog></Blog>}></Route>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='about' element={<About/>}></Route>
+        <Route path='project' element={<Portfolio/>}></Route>
+        <Route path='contact' element={<Contact/>}></Route>
       </Routes>
     </div>
   );

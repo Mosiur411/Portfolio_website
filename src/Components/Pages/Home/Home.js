@@ -38,6 +38,7 @@ const Home = () => {
                         <span className="--i:4">I</span>
                         <span className="--i:5">U</span>
                         <span className="--i:5">R</span>
+                        <span className="--i:1">_</span>
                         <span className="--i:6">I</span>
                         <span className="--i:6">S</span>
                         <span className="--i:6">L</span>
@@ -45,11 +46,11 @@ const Home = () => {
                         <span className="--i:6">M</span>
 
                     </div>
-                    <h1 className='text-2xl font-medium my-5'>Font-End Web Developer</h1>
+                    <h1 className='text-2xl font-medium my-5'>Full Stack Developer</h1>
                     <div>
                         <span style={{ color: 'white', fontWeight: 'bold' }}>
                             <Typewriter
-                                words={['Junior MERN Stack Developer ']}
+                                words={['Full Stack Developer.']}
                                 loop={5}
                                 typeSpeed={70}
                                 deleteSpeed={50}
@@ -58,7 +59,7 @@ const Home = () => {
                         </span>
                     </div>
                     <div className='mb-20 md:mb-0'>
-                        <h1 className='text-xl '>I'm a Mosiur islam based web designer & front‑end developer <br /> focused on crafting clean & user‑friendly experiences,<br /> I am passionate about building excellent software <br /> that improves the lives of those around me.</h1>
+                        <h1 className='text-xl '> I'm Mosiur Islam, a dedicated Full Stack Developer with a background in web design and front-end development. I'm committed to creating clean, user-friendly experiences while harnessing the power of technology to improve lives. With a passion for both design aesthetics and backend functionality, I strive to deliver comprehensive solutions that exceed expectations."</h1>
                         <a href={cv} download className='w-[220px] mt-10 hover:bg-yellow-500 flex justify-between items-center border-2 border-yellow-500 rounded-full' alt=''>
                             <span className='pl-3 text-xl'>Download </span>
                             <FontAwesomeIcon className='w-8 h-8 shadow-inner shadow-yellow-500 bg-yellow-500 rounded-full p-2' icon={faArrowDown}>

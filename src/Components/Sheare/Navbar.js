@@ -16,15 +16,15 @@ const Navbar = () => {
                         <div className="tooltip  tooltip-left" data-tip="About">
                             <Link to='about'><FontAwesomeIcon className='w-6 h-6 bg-yellow-500 p-3 rounded-full' icon={faUser} /></Link>
                         </div>
-                        <div className="tooltip  tooltip-left" data-tip="Portfolio">
-                            <Link to='portfolio'><FontAwesomeIcon className='w-6 h-6 bg-yellow-500 p-3 rounded-full' icon={faFolderOpen} /></Link>
+                        <div className="tooltip  tooltip-left" data-tip="Project">
+                            <Link to='project'><FontAwesomeIcon className='w-6 h-6 bg-yellow-500 p-3 rounded-full' icon={faFolderOpen} /></Link>
                         </div>
                         <div className="tooltip  tooltip-left" data-tip="Contact">
                             <Link to='contact'><FontAwesomeIcon className='w-6 h-6 bg-yellow-500 p-3 rounded-full' icon={faEnvelopeOpen} /></Link>
                         </div>
-                        <div className="tooltip  tooltip-left" data-tip="Blog">
+                     {/*    <div className="tooltip  tooltip-left" data-tip="Blog">
                             <Link to='blog'><FontAwesomeIcon className='w-6 h-6 bg-yellow-500 p-3 rounded-full' icon={faComment} /></Link>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -39,15 +39,15 @@ const Navbar = () => {
                         <div className="tooltip  tooltip-bottom" data-tip="About">
                             <Link to='about'><FontAwesomeIcon className='w-6 h-6 bg-yellow-500 p-3 rounded-full' icon={faUser} /></Link>
                         </div>
-                        <div className="tooltip  tooltip-bottom" data-tip="Portfolio">
-                            <Link to='portfolio'><FontAwesomeIcon className='w-6 h-6 bg-yellow-500 p-3 rounded-full' icon={faFolderOpen} /></Link>
+                        <div className="tooltip  tooltip-bottom" data-tip="Project">
+                            <Link to='project'><FontAwesomeIcon className='w-6 h-6 bg-yellow-500 p-3 rounded-full' icon={faFolderOpen} /></Link>
                         </div>
                         <div className="tooltip  tooltip-bottom" data-tip="Contact">
                             <Link to='contact'><FontAwesomeIcon className='w-6 h-6 bg-yellow-500 p-3 rounded-full' icon={faEnvelopeOpen} /></Link>
                         </div>
-                        <div className="tooltip  tooltip-bottom" data-tip="Blog">
+                       {/*  <div className="tooltip  tooltip-bottom" data-tip="Blog">
                             <Link to='blog'><FontAwesomeIcon className='w-6 h-6 bg-yellow-500 p-3 rounded-full' icon={faComment} /></Link>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
